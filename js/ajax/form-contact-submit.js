@@ -16,6 +16,14 @@ $("document").ready(function () {
           message +
           "</div>"
       );
+      clearForm();
   });
   })
+function clearForm(){
+  $("#txtEmail").val("");
+  $("#telPhone").val("");
+  $("#txtSubject").val("");
+  $("#txtMessage").val("")
+}
+
 });
