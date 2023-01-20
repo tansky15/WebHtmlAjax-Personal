@@ -9,7 +9,7 @@ $("document").ready(function () {
     var splitData = data.split(".");
       var status = splitData[0];
       var message = splitData[1];
-      $("#results").append(
+      $("#results").html(
         " <div class='alert alert-" +
           status +
           "'  role='alert'>" +
